@@ -73,7 +73,8 @@ RUN pip3 install scrapy                   \
     && pip3 install xlrd                  \
     && pip3 install googlemaps            \
     && pip3 install jupyterlab            \ 
-    && pip3 install beautifulsoup4        \                 
+    && pip3 install beautifulsoup4        \
+    && pip3 install insta-scrape          \                 
     && apt-get remove --purge -yqq $buildDeps \
     && apt-get clean                      \
     && rm -rf                             \
